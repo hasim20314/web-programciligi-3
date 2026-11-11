@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - İlk Web Sitem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>İletişim</h1>
+        <p>Örnek web projesinin iletişim sayfası</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="index.html#hakkimda">Hakkımda</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>İletişim Formu</h2>
+            <p>Bu form yalnızca JavaScript denemesi içindir. Gerçek bir mesaj göndermez.</p>
+
+            <form id="iletisimFormu">
+                <label for="ad">Adınız</label>
+                <input id="ad" name="ad" type="text" required>
+
+                <label for="mesaj">Mesajınız</label>
+                <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+
+                <button type="submit">Formu Dene</button>
+            </form>
+            <p id="formSonucu" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Web Programcılığı III - Örnek Uygulama</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
