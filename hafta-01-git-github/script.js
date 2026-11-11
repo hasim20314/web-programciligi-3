@@ -6,7 +6,7 @@ const bilgiAlani = document.getElementById("bilgiAlani");
 if (bilgiButonu && bilgiAlani) {
     const bilgiler = [
         "Git, dosyalardaki değişiklikleri takip etmeye yarar.",
-        "Commit, projenin belirli bir aşamasını kayıt altına alır.",
+        "Commit, yaptığın değişiklikleri kaydeder.",
         "GitHub, projeleri internet üzerinde saklamamızı sağlar."
     ];
     let sira = 0;
@@ -26,7 +26,7 @@ if (iletisimFormu && formSonucu) {
         const ad = document.getElementById("ad").value.trim();
 
         if (ad) {
-            formSonucu.textContent = "Merhaba " + ad + "! Bu bir örnek formdur, mesaj gerçek bir adrese gönderilmedi.";
+            formSonucu.textContent = "Merhaba " + ad + "! Formu denedin, teşekkürler.";
             iletisimFormu.reset();
         }
     });
